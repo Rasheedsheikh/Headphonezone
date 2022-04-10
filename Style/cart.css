@@ -1,0 +1,370 @@
+*{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.navbar{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 99;
+    
+    background-color:#f9f9f9; 
+    margin-top: -100px;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+}
+ 
+
+.leftnav{
+    display: flex;
+    gap: 12px;
+   
+}
+
+.rightnav{
+    display: flex;
+    margin-right: 35px;
+    
+     
+}
+
+.head2{
+    padding: 0px 0px 0px 10px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+     
+     
+}
+
+.head1{
+    text-decoration: none;
+    color:#4e4e4e;
+    
+     
+}
+.head1:hover{
+  border-bottom: 2px solid #808080;
+}
+#head {
+    height: 40px;
+    width: 150px;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 150px;
+    background-color:#f9f9f9;
+     
+}
+
+#search{
+    width: 200px;
+    height: 26px;
+    margin-top: 25px;
+    font-size: 14px;
+    border: 1px solid rgb(224, 219, 219);
+}
+/* 
+ .navbar {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 99;
+    
+    background-color:#f9f9f9; 
+    margin-top: -75px;
+   
+    
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+}
+ 
+
+.left {
+    display: flex;
+    
+    gap: 6px;
+}
+
+.right {
+    display: flex;
+    margin-right: 35px;
+   
+    gap: 5px;
+}
+
+.head2{
+    padding: 14px 0px 0px 15px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+    
+}
+
+.head1{
+    text-decoration: none;
+    color:#4e4e4e;
+     
+}
+
+#head {
+    height: 40px;
+    width: 150px;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 150px;
+    background-color:#f9f9f9;
+}
+
+#search {
+    width: 200px;
+    height: 26px;
+    margin-top: 25px;
+    font-size: 14px;
+    border: 1px solid rgb(224, 219, 219);
+} */
+    #nav{
+      
+        justify-content: center;
+        text-align: center;
+        margin-top: 100px;
+        color:#444444;
+        font:28px "zurich Extended",sans-serif
+       
+    }
+    #parent{
+        display: flex;
+        justify-content: space-between;
+        height: auto;
+        width:90%;
+        flex-direction: row;
+    
+        margin: auto;
+    }
+    .inner{
+        display: flex;
+        justify-content: space-between; 
+    
+       
+        width:80%;
+        margin: auto;
+    }
+    .left{
+        display:grid;
+        grid-template-columns: repeat(3,1fr);
+        gap:20px;
+      
+        width:70%;
+    
+      
+      
+
+    }
+    .button{
+        height: 40px;
+        width: 250px;
+        border-radius: 50px;
+        background-color: blue;
+        color: whitesmoke;
+        font-size: 17px;
+        margin-left: 10%;
+         
+    }
+    /* table {
+        color:#444444B3;
+border-collapse: collapse;
+width: 70%;
+margin: auto;
+    } */
+
+  
+    .right{
+      
+      background-color: #F5F5F5;
+ 
+       height:100%;
+        width:25%;
+    
+         
+
+    }
+    .right>button{
+        background-color: blue;
+        color: white;
+        border-radius: 20px;
+        height:40px;
+        width:90%;
+        margin-top: 10px;
+        padding-left: px;
+     
+      
+    }
+
+    .para{
+        color:#444444;
+        font:12px Roboto, sans-serif;
+        margin:20px 0px 0px;
+        margin: auto;
+    }
+
+    .mini{
+        height:150px;
+        width:25%;
+       margin-top: 25px;
+        margin-left: 5%;
+        font: 14px Roborto,sans-serif;
+        color:#444444;
+    }
+    p~p{
+        margin-top: 30px;
+    }
+    .nav2{
+        color:#444444;
+        justify-content: center;
+        height:100px;
+        margin:auto;
+        width:80%;
+        text-align: center;
+       
+        margin-top: 15px;
+    }
+    #container{
+        display: grid;
+        height: 400px;
+        width:90%;
+      
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: 100px;
+        text-align: center;
+     
+        gap: 10px;
+        margin: auto;
+        margin-top:20px;
+       
+    }
+    .priceDiv {
+         
+        display: flex;
+        flex-direction:column;
+        gap: 10px;
+        margin:auto}
+
+    img {width:50%;}
+
+  
+
+    p {font-size: 14px;letter-spacing: 1px;position: relative;}
+
+    #total {display: flex; border: 1px solid; width:250px;margin-left: 200px;padding-left: 20px;margin-top: 30px;align-items: center;gap: 10px;}
+
+   
+#container2{
+    width: 100%;
+    height: 280px;
+    display: flex;
+    justify-content: center;
+    background-color: #F9F9F9;
+     
+     
+}
+
+#container2>div{
+    width: 19%;
+    height: 100%;
+}
+
+.box16{
+    font-weight: bold;
+}
+
+.box16:nth-child(2) {
+    margin-top: 25px;
+}
+
+.box17>p:nth-child(2){
+    line-height: 30px;
+}
+
+.box18>p{
+    margin-left: 30px;
+       
+}
+
+.box18>div{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    height: 40px;
+    border: 1px solid grey;
+    margin-left: 30px;
+    margin-top: 35px;
+}
+
+.box18>div>div{
+    width: 25%;
+    border: 1px solid grey;
+}
+i{
+    padding: 13px 18px;
+}
+
+.box18>div>div:hover{
+    transform: scale(1.05);
+    background-color: grey;
+    color: white;
+     
+}
+
+.box19{
+    background-color: #F9F9F9;
+}
+
+.box20{
+    margin-top: 80px;
+    margin-left: 380px;
+}
+.total{
+    margin-top: 25px;
+}
+.image:hover{
+    transform: scale(1.05);
+}
+
+    @media all and (min-width:381px) and  (max-width:700px){
+        #container{
+            grid-template-columns: repeat(2,1fr);
+            grid-template-rows: repeat(2,1fr);
+            margin:auto;
+        }
+        .left{
+            display: grid;
+           grid-template-columns: repeat(2,1fr);
+    
+         height:auto;
+            width:100%;
+     
+         
+            margin: auto;
+        }
+        
+    
+        
+        .right{
+            border: 1px solid blue;
+          
+           height:auto;
+            width:50%;
+        
+             margin: auto;
+        }
+       
+    }
+    @media all and (min-width:50px) and  (max-width:380px){
+        #container{
+            grid-template-columns: repeat(1,1fr);
+            grid-template-rows: repeat(4,1fr);
+            margin:auto;
+        }
+    }

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Address</title>
+    <link rel="stylesheet" href="./Style/address.css">
+</head>
+<body>
+    <div id="container">
+        <a href="./index.html"><img style="height: 50px; width: 200px;"
+            src="https://cdn.shopify.com/s/files/1/0153/8863/files/Headphone-Zone-Animated-Header_400x_b56ee274-b480-4d0f-91ae-4a16d148a93f.gif?v=1580537719"></a>
+        <br>
+        <div id="a">
+            <p>Contact Information</p>
+            <a href="login.html" id="login">Already have an account? Log in</a>
+        </div>
+        <input type="text" placeholder="Email" id="email">
+        <br>
+        <input type="checkbox" id="checkbox">
+        <label for="checkbox"> Email me with news & offers</label>
+
+        <div id="shipping">
+            <p>Shipping Address</p>
+            
+            <div>
+                <select id="country">
+                    <option value="">Select Country</option>
+                    <option value="india">India</option>
+                </select>
+            </div>
+
+            <div>
+                <div id="name">
+                    <input type="text" placeholder="First Name" class="name">
+                    <input type="text" placeholder="Last name" class="name">
+                </div>
+                
+            </div>
+
+            <div>
+                <input type="text" placeholder="Address" id="address">
+            </div>
+
+            <div>
+                <div id="city">
+                    <input type="text" placeholder="City" class="city">
+                    <input type="text" placeholder="State" class="city">
+                    <input type="text" placeholder="Pincode" class="city">
+                </div>
+                
+            </div>
+
+            <div>
+                <input type="text" placeholder="Phone" id="phone">
+            </div>
+
+
+            <br>
+
+            <input type="checkbox" id="info_save">
+            <label> Save this information for next time</label>
+            <br>
+
+            <input type="submit" value="Continue to payment method" id="submit">
+            
+
+        </div>
+    </div>
+</body>
+</html>
+
+<script src="./javaScript/address.js"></script>
